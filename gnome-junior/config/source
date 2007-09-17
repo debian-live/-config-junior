@@ -5,5 +5,5 @@
 LH_SOURCE="disabled"
 
 # $LH_SOURCE_IMAGES: set image type
-# (Default: generic)
-LH_SOURCE_IMAGES="generic"
+# (Default: tar)
+LH_SOURCE_IMAGES="tar"
