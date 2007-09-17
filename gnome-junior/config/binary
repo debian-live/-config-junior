@@ -1,0 +1,90 @@
+# config/binary - options for live-helper(7), binary stage
+
+# $LH_BINARY_IMAGES: set image type
+# (Default: iso)
+LH_BINARY_IMAGES="iso"
+
+# $LH_BINARY_INDICES: set apt/aptitude generic indices
+# (Default: enabled)
+LH_BINARY_INDICES="enabled"
+
+# $LH_BOOTAPPEND: set boot parameters
+# (Default: empty)
+LH_BOOTAPPEND=""
+
+# $LH_BOOTLOADER: set bootloader
+# (Default: syslinux)
+LH_BOOTLOADER="syslinux"
+
+# ${LH_CHROOT_BUILD: control if we build binary images chrooted
+# (Default: enabled)
+# DO NEVER, *NEVER*, *N*E*V*E*R* SET THIS OPTION to disabled.
+LH_CHROOT_BUILD="enabled"
+
+# $LH_DEBIAN_INSTALLER: set debian-installer
+# (Default: enabled)
+LH_DEBIAN_INSTALLER="disabled"
+
+# $LH_DEBIAN_INSTALLER_DAILY: set daily images
+# (Default: disabled)
+LH_DEBIAN_INSTALLER_DAILY="disabled"
+
+# $LH_ENCRYPTION: set encrytion
+# (Default: empty)
+LH_ENCRYPTION=""
+
+# $LH_GRUB_SPLASH: set custom grub splash
+# (Default: empty)
+LH_GRUB_SPLASH=""
+
+# $LH_HOSTNAME: set hostname
+# (Default: debian-jr)
+LH_HOSTNAME="debian-jr"
+
+# $LH_ISO_APPLICATION: set iso author
+# (Default: Debian Jr. Live)
+LH_ISO_APPLICATION="Debian Jr. Live"
+
+# $LH_ISO_PREPARER: set iso preparer
+# (Default: live-helper 1.0~a24; http://packages.qa.debian.org/live-helper)
+LH_ISO_PREPARER="live-helper 1.0~a24; http://packages.qa.debian.org/live-helper"
+
+# $LH_ISO_PUBLISHER: set iso preparer
+# (Default: Debian Jr. project; http://www.debian.org/devel/debian-jr; debian-jr@lists.debian.org)
+LH_ISO_PUBLISHER="Debian Jr. project; http://www.debian.org/devel/debian-jr; debian-jr@lists.debian.org"
+
+# $LH_ISO_VOLUME: set iso volume (max 32 chars)
+# (Default: Debian Jr. Live 20070831)
+LH_ISO_VOLUME="Debian Jr. Live 20070831"
+
+# $LH_MEMTEST: set memtest
+# (Default: memtest86+)
+LH_MEMTEST="memtest86+"
+
+# $LH_NET_FILESYSTEM: set netboot filesystem
+# (Default: nfs)
+LH_NET_FILESYSTEM="nfs"
+
+# $LH_NET_MOUNTOPTIONS: set nfsopts
+# (Default: empty)
+LH_NET_MOUNTOPTIONS=""
+
+# $LH_NET_PATH: set netboot server directory
+# (Default: /srv/debian-live)
+LH_NET_PATH="/srv/debian-live"
+
+# $LH_NET_SERVER: set netboot server address
+# (Default: 192.168.1.1)
+LH_NET_SERVER="192.168.1.1"
+
+# $LH_SYSLINUX_SPLASH: set custom syslinux splash
+# (Default: empty)
+LH_SYSLINUX_SPLASH=""
+
+# $LH_SYSLINUX_TIMEOUT: set custom syslinux timeout
+# (Default: 0)
+LH_SYSLINUX_TIMEOUT="0"
+
+# $LH_USERNAME: set username
+# (Default: user)
+LH_USERNAME="user"
